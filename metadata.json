@@ -1,0 +1,5 @@
+{
+  "name": "CompeteAI - Competitor Analysis Engine",
+  "description": "An AI-powered competitive intelligence dashboard that crawls, analyzes, and compares websites using Google Gemini.",
+  "requestFramePermissions": []
+}
