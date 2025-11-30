@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { AnalysisReport } from '../types';
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: "AIzaSyCKPFxHtfztxB7nYhbVXcpWwpnGMhFlBeQ" });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY as string, });
 
 export const generateAnalysis = async (
   primaryUrl: string,
